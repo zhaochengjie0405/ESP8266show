@@ -1,7 +1,8 @@
 # ESP8266show
 
 
-~~~sequenceDiagram
+~~~mermaid
+    sequenceDiagram
     participant User
     participant Phone as 用户手机
     participant ESP as ESP8266 (AP模式)
@@ -32,3 +33,4 @@
     STM->>Cloud: 连接成功，开始通信
     Cloud-->>STM: 订阅成功/发布确认
     STM->>Phone: 返回配置成功页面
+~~~
