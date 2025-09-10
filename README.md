@@ -1,7 +1,7 @@
 # ESP8266show
 
 
-sequenceDiagram
+~~~sequenceDiagram
     participant User
     participant Phone as 用户手机
     participant ESP as ESP8266 (AP模式)
